@@ -77,8 +77,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "(b) At the end of primary education",
-                "(c) At the end of lower secondary education",
+                "At the end of primary education",
+                "At the end of lower secondary education",
                 ""
               ]
             },
@@ -1350,8 +1350,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "EUR per hour",
                 "Percentage",
+                "EUR per hour",
                 ""
               ]
             },
@@ -1405,8 +1405,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ".",
                 "|",
+                ".",
                 ""
               ]
             },
@@ -1437,8 +1437,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Average hourly earnings of employees",
                 "Gender Pay Gap",
+                "Average hourly earnings of employees",
                 ""
               ]
             },
@@ -2724,8 +2724,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "(b) At the end of primary education",
-                "(c) At the end of lower secondary education",
+                "At the end of primary education",
+                "At the end of lower secondary education",
                 ""
               ]
             },
@@ -3561,8 +3561,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Gini coefficient index points",
                 "Gini coefficient",
+                "Gini coefficient index points",
                 ""
               ]
             },
@@ -3616,8 +3616,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Redistributive impact of fiscal policy",
                 "Gini coefficients",
+                "Redistributive impact of fiscal policy",
                 ""
               ]
             },
@@ -4192,6 +4192,30 @@
             "title": "Time series"
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "Number",
+                "Per 100,000 inhabitants",
+                ""
+              ]
+            },
+            "title": "Units"
+          },
+          {
+            "name": "age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "65 and younger",
+                "70 and younger",
+                ""
+              ]
+            },
+            "title": "Age group"
+          },
+          {
             "name": "sex",
             "type": "string",
             "constraints": {
@@ -4242,7 +4266,7 @@
           }
         ]
       },
-      "title": "Anteil der Jugendlichen, die weder eine Schule besuchen, noch einer Beschäftigung nachgehen oder eine Ausbildung absolvieren (NEET)"
+      "title": "<ul style='padding-left: 25px;'><li>Anteil der Jugendlichen, die weder eine Schule besuchen, noch einer Beschäftigung nachgehen oder eine Ausbildung absolvieren (NEET)</li> <li> Potenzielle verlorene Lebensjahre (PYLL), alle Ursachen </li></ul>"
     },
     {
       "path": "4-5-1/data.csv",

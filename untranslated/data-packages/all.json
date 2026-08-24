@@ -1235,8 +1235,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "eur per hour",
                 "percentage",
+                "eur per hour",
                 ""
               ]
             }
@@ -1286,8 +1286,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                ".",
                 "|",
+                ".",
                 ""
               ]
             }
@@ -1315,8 +1315,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "average hourly earnings of employees",
                 "gender pay gap",
+                "average hourly earnings of employees",
                 ""
               ]
             }
@@ -3255,8 +3255,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "gini coefficient index points",
                 "gini coefficient",
+                "gini coefficient index points",
                 ""
               ]
             }
@@ -3305,8 +3305,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "redistributive impact of fiscal policy",
                 "gini coefficients",
+                "redistributive impact of fiscal policy",
                 ""
               ]
             }
@@ -3830,6 +3830,28 @@
             }
           },
           {
+            "name": "Units",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "number",
+                "per 100,000 inhabitants",
+                ""
+              ]
+            }
+          },
+          {
+            "name": "age group",
+            "type": "string",
+            "constraints": {
+              "enum": [
+                "65 and younger",
+                "70 and younger",
+                ""
+              ]
+            }
+          },
+          {
             "name": "sex",
             "type": "string",
             "constraints": {
@@ -3875,7 +3897,7 @@
           }
         ]
       },
-      "title": "Anteil der Jugendlichen, die weder eine Schule besuchen, noch einer Beschäftigung nachgehen oder eine Ausbildung absolvieren (NEET)"
+      "title": "<ul style='padding-left: 25px;'><li>Anteil der Jugendlichen, die weder eine Schule besuchen, noch einer Beschäftigung nachgehen oder eine Ausbildung absolvieren (NEET)</li> <li> Potenzielle verlorene Lebensjahre (PYLL), alle Ursachen </li></ul>"
     },
     {
       "path": "4-5-1/data.csv",
