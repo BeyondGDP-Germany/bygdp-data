@@ -1270,7 +1270,7 @@
                 ""
               ]
             },
-            "title": "Länder"
+            "title": "Land"
           },
           {
             "name": "GeoCode",
@@ -1393,7 +1393,7 @@
                 ""
               ]
             },
-            "title": "Länder"
+            "title": "Land"
           },
           {
             "name": "GeoCode",
@@ -1486,7 +1486,7 @@
             "constraints": {
               "enum": [
                 "Healthy life expectancy at",
-                "Low-birthweight babies (percentage of births)",
+                "Low-birthweight babies",
                 ""
               ]
             },
@@ -2219,7 +2219,6 @@
               "enum": [
                 "Female",
                 "Male",
-                "famale",
                 ""
               ]
             },
@@ -2535,7 +2534,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Domestic and care work",
                 "Domestic work",
                 "Care work",
                 ""
@@ -3253,8 +3251,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Number",
                 "Per 100,000 inhabitants",
+                "Number",
                 "Percentage",
                 ""
               ]
@@ -3327,9 +3325,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "|",
                 "‒",
                 ".",
-                "|",
                 "0",
                 "r",
                 "…",
@@ -3582,10 +3580,9 @@
           },
           {
             "name": "COMMENT_OBS_0",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                ".",
                 ""
               ]
             },
@@ -4208,8 +4205,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "65 and younger",
-                "70 and younger",
+                "65 years and younger",
+                "70 years and younger",
                 ""
               ]
             },

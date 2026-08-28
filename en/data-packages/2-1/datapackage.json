@@ -46,7 +46,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Domestic and care work",
                 "Domestic work",
                 "Care work",
                 ""

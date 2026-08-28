@@ -2028,7 +2028,6 @@
               "enum": [
                 "female",
                 "male",
-                "famale",
                 ""
               ]
             }
@@ -2316,7 +2315,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "domestic and care work",
                 "domestic work",
                 "care work",
                 ""
@@ -2972,8 +2970,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "number",
                 "per 100,000 inhabitants",
+                "number",
                 "percentage",
                 ""
               ]
@@ -3041,9 +3039,9 @@
             "type": "string",
             "constraints": {
               "enum": [
+                "|",
                 "‒",
                 ".",
-                "|",
                 "0",
                 "r",
                 "…",
@@ -3274,10 +3272,9 @@
           },
           {
             "name": "COMMENT_OBS_0",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                ".",
                 ""
               ]
             }
@@ -3845,8 +3842,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "65 and younger",
-                "70 and younger",
+                "65 years and younger",
+                "70 years and younger",
                 ""
               ]
             }
