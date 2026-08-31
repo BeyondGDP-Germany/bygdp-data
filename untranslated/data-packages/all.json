@@ -162,7 +162,7 @@
           }
         ]
       },
-      "title": "<ul style='padding-left: 25px;'><li>Anteil der Kinder und Jugendlichen, die ein Mindestniveau der Lese- und Mathematikkompetenz  erreichen</li> <li>Anteil der Jugendlichen und Erwachsenen mit Informations- und Kommunikationstechnologie-Kompetenzen</li></ul>"
+      "title": "<ul style='padding-left: 25px;'><li>Anteil der Kinder und Jugendlichen, der ein Mindestniveau der Lese- und Mathematikkompetenz  erreicht</li> <li>Anteil der Jugendlichen und Erwachsenen mit Informations- und Kommunikationstechnologie-Kompetenzen</li></ul>"
     },
     {
       "path": "4-5/data.csv",
@@ -2216,57 +2216,8 @@
             "type": "integer"
           },
           {
-            "name": "A",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "a",
-                "b",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "B",
-            "type": "string",
-            "constraints": {
-              "enum": [
-                "a",
-                "b",
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMMENT_OBS_0",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMMENT_OBS_1",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
-            "name": "COMMENT_OBS_2",
-            "type": "number",
-            "constraints": {
-              "enum": [
-                ""
-              ]
-            }
-          },
-          {
             "name": "Value",
-            "type": "integer"
+            "type": "number"
           }
         ]
       },
@@ -3044,7 +2995,6 @@
                 ".",
                 "0",
                 "r",
-                "…",
                 ""
               ]
             }
@@ -3074,8 +3024,6 @@
               "enum": [
                 "victims of intentional homicide",
                 "feeling of (in)security of the population in its neighbourhood (after dark)",
-                "feeling of (in)security of the population in its neighbourhood (during the day)",
-                "population not living in an area with crime, violence or vandalism",
                 ""
               ]
             }
@@ -3894,7 +3842,7 @@
           }
         ]
       },
-      "title": "<ul style='padding-left: 25px;'><li>Anteil junger Menschen, die sich weder in Bildung, Beschäftigung noch Ausbildung befinden (NEET)</li> <li>Potenzielle Lebensjahre, die durch vorzeitigen Tod verloren gehen (PYLL), aufgrund aller Todesursachen</li></ul>"
+      "title": "<ul style='padding-left: 25px;'><li>Anteil junger Menschen, der sich weder in Bildung, Beschäftigung noch Ausbildung befindet (NEET)</li> <li>Potenzielle Lebensjahre, die durch vorzeitigen Tod verloren gehen (PYLL), aufgrund aller Todesursachen</li></ul>"
     },
     {
       "path": "4-5-1/data.csv",
@@ -3987,6 +3935,7 @@
             "constraints": {
               "enum": [
                 "million tonnes of co₂ equivalents",
+                "tonnes of CO₂ equivalents per capita",
                 "2030 = 100",
                 ""
               ]
@@ -4081,7 +4030,7 @@
           }
         ]
       },
-      "title": "<ul style='padding-left: 25px;'><li>Gesamte Treibhausgasemissionen  und Treibhausgasemissionen pro Kopf</li> <li>Index der Integrität der biologischen Vielfalt</li></ul>"
+      "title": "<ul style='padding-left: 25px;'><li>Gesamte Treibhausgasemissionen  und Treibhausgasemissionen pro Kopf</li> <li>Index zur Intaktheit der biologischen Vielfalt</li></ul>"
     }
   ]
 }
