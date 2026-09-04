@@ -33,7 +33,7 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Household disposable income per capita",
+                "Household disposable income",
                 "Composite rate of labour underutilization",
                 "Time spent on unpaid domestic and care work",
                 ""
@@ -70,8 +70,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 to under 75 years",
-                "20 to under 65 years",
                 "15 years and older",
                 "15 to under 25 years",
                 "25 to under 45 years",
@@ -97,10 +95,9 @@
           },
           {
             "name": "COMMENT_OBS_0",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "|",
                 ""
               ]
             },
@@ -138,5 +135,5 @@
   ],
   "profile": "data-package",
   "name": "2-1",
-  "title": "<ul style='padding-left: 25px;'><li>Verfügbares Haushaltseinkommen pro Kopf</li> <li> Quote der Unterauslastung von Arbeitskräften</li> <li>Anteil der für unbezahlte Haus- und Betreuungsarbeit aufgewendeten Zeit</li></ul>"
+  "title": "<ul style='padding-left: 25px;'><li>Verfügbares Haushaltseinkommen pro Kopf</li> <li> Quote der Unterauslastung von Arbeitskräften</li> <li>Anteil des Zeitaufwands für unbezahlte Haus- und Pflegearbeit</li></ul>"
 }

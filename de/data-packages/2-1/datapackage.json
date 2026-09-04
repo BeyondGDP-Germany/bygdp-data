@@ -33,8 +33,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Verfügbares Haushaltseinkommen pro Kopf",
-                "Quote der Unterauslastung der Arbeitskräfte",
+                "Verfügbares Haushaltseinkommen",
+                "Quote der Unterauslastung von Arbeitskräften",
                 "Zeitaufwand für unbezahlte Haus- und Pflegearbeit",
                 ""
               ]
@@ -70,8 +70,6 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "15 bis unter 75 Jahre",
-                "20 bis unter 65 Jahre",
                 "15 Jahre und älter",
                 "15 bis unter 25 Jahre",
                 "25 bis unter 45 Jahre",
@@ -97,10 +95,9 @@
           },
           {
             "name": "COMMENT_OBS_0",
-            "type": "string",
+            "type": "number",
             "constraints": {
               "enum": [
-                "|",
                 ""
               ]
             },
@@ -138,5 +135,5 @@
   ],
   "profile": "data-package",
   "name": "2-1",
-  "title": "<ul style='padding-left: 25px;'><li>Verfügbares Haushaltseinkommen pro Kopf</li> <li> Quote der Unterauslastung von Arbeitskräften</li> <li>Anteil der für unbezahlte Haus- und Betreuungsarbeit aufgewendeten Zeit</li></ul>"
+  "title": "<ul style='padding-left: 25px;'><li>Verfügbares Haushaltseinkommen pro Kopf</li> <li> Quote der Unterauslastung von Arbeitskräften</li> <li>Anteil des Zeitaufwands für unbezahlte Haus- und Pflegearbeit</li></ul>"
 }

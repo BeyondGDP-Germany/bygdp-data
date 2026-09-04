@@ -47,8 +47,8 @@
             "type": "string",
             "constraints": {
               "enum": [
-                "Old länder",
-                "New länder",
+                "Former federal territory",
+                "New länder and Berlin",
                 ""
               ]
             },
